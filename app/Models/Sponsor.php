@@ -63,8 +63,5 @@ class Sponsor extends Model
     /**
      * Get the logo URL.
      */
-    public function getLogoUrlAttribute()
-    {
-        return $this->logo_path ? asset('storage/' . $this->logo_path) : null;
-    }
+   
 }
